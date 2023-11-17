@@ -1,59 +1,44 @@
-:root {
-    --amarillo: #EAC926;
-    --azul: #03264C;
-    --celeste: #1259c3;
-    --gris-oscuro: #666;
-    --gris-claro: #ebebeb;
-    --verde: #39b54a;
+.main-login{
+    height: 35vh;
+    width: 70%;
+
+}
+
+.formulario-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.usuario,
+.contrasenia,
+.boton-ingresar {
+    margin-bottom: 15px; 
+}
+
+.boton-ingresar {
+    width: 45%;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ebebeb;
+    background-color: var(--celeste);
+    border-radius: 7px;
+    transition: all 0.6s;
 }
 
 
 
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-  }
-  
-  
-  form {
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    padding: 20px;
-    width: 300px;
-  }
-  
-
-  form div {
-    margin-bottom: 15px;
-  }
-  
-  form label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  form input[type="text"],
-  form input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  
-  /* Estilos para el botón de enviar */
-  form button[type="submit"] {
-    background-color: blue;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  form button[type="submit"]:hover {
-    background-color: darkblue;
-  }
-  
+@media(min-width:361px){
+    .formulario-login{
+        width: 90%;
+        margin-left: 20%;
+    }
+}
+@media(min-width:769px){
+    .formulario-login{
+        width: 60%;
+        margin-left: 30%;
+    }
+} 
