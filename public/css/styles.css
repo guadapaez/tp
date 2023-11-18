@@ -199,9 +199,9 @@ article:hover .fa-truck{
     align-items: center;
     transition: all 0.55s;    
 }
-.footer-bottom{
+/*.footer-bottom{
     text-align: center;
-}
+}*/
 
 .card, .gift, .shield{
     text-align: center;
