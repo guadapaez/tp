@@ -110,7 +110,7 @@ body{
 .produc{
     padding: 3%;
 }
-
+ 
 .banner{
     width: 100%;
     
@@ -215,7 +215,7 @@ article:hover .fa-truck{
     transition: all 0.55s;   
 }
 
-@media(min-width:361px){
+@media(min-width:769px){
     .header-top{
         display: flex;
         justify-content: space-between;
