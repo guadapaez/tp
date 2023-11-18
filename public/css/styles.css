@@ -215,7 +215,7 @@ article:hover .fa-truck{
     transition: all 0.55s;   
 }
 
-@media(min-width:769px){
+@media(min-width:361px){
     .header-top{
         display: flex;
         justify-content: space-between;
