@@ -42,22 +42,22 @@ rel="stylesheet" />
         <form class="form" action="/" method="get">            
             <div class="na">
                 <label for="na">Nombre y Apellido:</label>
-                <input class="input-largo" type="text" name="nombre" id="na" placeholder="Nombre y Apellido">
+                <input class="input-largo" type="text"required="" name="nombre" id="na" placeholder="">
             </div>
 
             <div class="usuario">
                 <label for="usuario">Nombre de Usuario:</label>
-                <input class="input-largo" type="text" name="usuario" id="usuario" placeholder="Nombre de Usuario">
+                <input class="input-largo" type="text"required="" name="usuario" id="usuario" placeholder="">
             </div>
 
             <div class="fecha-nacimiento">
                 <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
-                <input class="input-largo" type="date" name="nacimiento" id="fecha-nacimiento" placeholder="Fecha de Nacimiento">
+                <input class="input-largo" type="date" required="" name="nacimiento" id="fecha-nacimiento" placeholder="Fecha de Nacimiento">
             </div>
 
             <div class="domicilio">
                 <label for="domicilio">Domicilio:</label>
-                <input class="input-largo" type="text" name="domicilio" id="domicilio" placeholder="Calle y número">
+                <input class="input-largo" type="text" required="" name="domicilio" id="domicilio" placeholder="Calle y número">
             </div>
 
             <div class="caja">
@@ -69,11 +69,11 @@ rel="stylesheet" />
                 <h4>Elegí tu perfil:</h4>
                 <div class="opciones-perfil">                    
                     <div class="comprador">
-                        <input type="radio" name="perfil" id="perfil" value="comprador">
+                        <input type="radio" name="perfil" id="comprador" value="comprador" required>
                         <label for="perfil">Comprador</label>
                     </div>
                     <div class="vendedor">
-                        <input type="radio" name="perfil" id="perfil" value="vendedor">
+                        <input type="radio" name="perfil" id="vendedor" value="vendedor" required>
                         <label for="perfil">Vendedor</label>
                     </div>        
                 </div>

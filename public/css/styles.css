@@ -214,6 +214,9 @@ article:hover .fa-truck{
     margin-bottom: 10px;
     transition: all 0.55s;   
 }
+.fa-credit-card:hover, .fa-gift:hover, .fa-user-shield:hover{
+    color: #0022AA
+}
 
 @media(min-width:361px){
     .header-top{
